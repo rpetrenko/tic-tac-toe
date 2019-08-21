@@ -77,7 +77,7 @@ while True:
         print("It's a tie")
         break
     # user placement
-    s = input("\"X\" move (ij), q to exit: ")
+    s = raw_input("\"X\" move (ij), q to exit: ")
     if s == "q":
         break
     assert len(s) == 2, "can't parse indices"
